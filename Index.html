@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="/Components/Index.css">
+    <!-- Link BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="nav container">
+            <!-- logo -->
+            <a href="" class="logo">ZYAXC</a>
+            <!-- Navigation Bar -->
+            <div class="nav_menu" id="menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                </ul>
+            </div>
+            <!-- Menu Toggle -->
+            <div class="menu_toggle" id="toggle">
+                <div class="burger1"></div>
+                <div class="burger2"></div>
+                <div class="burger3"></div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container_home">
+            <div class="hero_image">
+                <img src="/Assets/Image/profile.jpg">
+            </div>
+            <div class="content_home">
+                <h3 class="hello">Hello</h3>
+                <h1 class="title_home">I'm Anam</h1>
+                <p class="text_home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor esse quos cumque ipsam voluptates veritatis earum odit eos voluptas nulla fuga repellendus incidunt tempore ducimus quibusdam, mollitia explicabo nobis nemo maiores reiciendis! Exercitationem suscipit, iusto impedit repudiandae veniam maiores id illo, dolorem officiis consequatur odit laborum hic ipsum debitis?</p>
+            </div>
+            <div class="social_media">
+                <a href=""><i class='bx bxl-facebook facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram instagram'></i></a>
+                <a href=""><i class='bx bxl-telegram telegram'></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container_about">
+            <div class="image_about">
+                <img src="/Assets/Image/profile.jpg">
+            </div>
+            <div class="content_about">
+                <div class="title_about">
+                    <h1>ABOUT ME</h1>
+                </div>
+                <div class="text_about">
+                    <h3>LET ME INTRODUCE MY SELF</h3>
+                    <p>My name is Khoirul Anam.<br>
+                    i am a new front-end developer. and this is my first project in front-end developer. Hope you can give me a feedback that will make me to become a better developer in the future.</p>
+                </div>
+                <button class="btn-about"><a href="">LEARN</a></button>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="title_portfolio">
+            <h1>MY PORTFOLIO</h1>
+        </div>
+        <div class="container_images">
+            <div class="image_container">
+                <img src="/Assets/Image/Screenshot_12.png">
+                <button class="btn_check">CHECK OUT</button>
+            </div>
+            <div class="image_container">
+                <img src="/Assets/Image/Screenshot_14.png">
+                <button class="btn_check">CHECK OUT</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title_contact">
+            <h1>CONTACT ME</h1>
+        </div>
+        <div class="container_contact">
+            <form action="">
+                <!-- Input First Name -->
+                <label for="first-name">Your First Name</label>
+                <input class="first_name" type="text" id="first_name" name="first-name" placeholder="Your First Name">
+                <!-- Input Last Name -->
+                <label for="last-name">Your Last Name</label>
+                <input class="last_name" type="text" id="last_name" name="last-name" placeholder="Your Last Name">
+                <!-- Option Country -->
+                <label for=""></label>
+                <select class="country" name="country" id="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="USA">USA</option>
+                    <option value="Japan">Japan</option>
+                </select>
+                <!-- Comment Form -->
+                <label for="subjet">Subject</label>
+                <textarea class="subject" name="subject" id="subject" placeholder="Write Something..." style="height:150px"></textarea>
+                <!-- Button Form -->
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="title_skills">
+            <h1 class="title_skill">MY SKILLS</h1>
+        </div>
+        <div class="container_skills">
+           <div class="bar_skills">
+            <div class="info_skill">
+                <span>HTML</span>
+            </div>
+            <div class="progres_skill html"><span></span></div>
+           </div>
+           <div class="bar_skills">
+            <div class="info_skill">
+                <span>CSS</span>
+            </div>
+            <div class="progres_skill css"><span></span></div>
+           </div>
+           <div class="bar_skills">
+            <div class="info_skill">
+                <span>JS</span>
+            </div>
+            <div class="progres_skill js"><span></span></div>
+           </div>
+           <div class="bar_skills">
+            <div class="info_skill">
+                <span>Py</span>
+            </div>
+            <div class="progres_skill python"><span></span></div>
+        </div>
+    </div>
+</section>
+<script src="/Components/Index.js"></script>
+</body>
+</html>
